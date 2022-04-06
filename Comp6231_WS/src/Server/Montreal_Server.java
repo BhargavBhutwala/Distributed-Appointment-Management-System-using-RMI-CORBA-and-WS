@@ -19,7 +19,7 @@ public class Montreal_Server
     }
     public void serverConnection(int port)
     {
-        setLogger("C:/Users/Bhargav/OneDrive/Desktop/Comp6231Assignment3/logs/MTL.txt","MTL");
+        setLogger("/logs/MTL.txt","MTL");
         logger.info("Montreal server started...");
         DatagramSocket ds=null;
 
