@@ -1,0 +1,8 @@
+javac Appointments/*.java
+javac Hosp_Client/*.java
+javac Implementation/*.java
+javac Server/*.java
+javac Structure/*.java
+start orbd -ORBInitialPort 1050
+java Server/Server -ORBInitialPort 1050 -ORBInitialHost localhost
+java Hosp_Client/Client -ORBInitialPort 1050 -ORBInitialHost localhost
