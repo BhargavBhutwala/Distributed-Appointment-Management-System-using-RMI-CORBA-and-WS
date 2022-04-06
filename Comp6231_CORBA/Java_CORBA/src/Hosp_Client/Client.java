@@ -38,7 +38,7 @@ public class Client
 				System.out.println("Enter your Id:");
 				String id=br.readLine().trim();
 				obj=null;
-				setLogger("C:\\Users\\Bhargav\\OneDrive\\Desktop\\Comp6231Assignment2\\logs"+id+".txt",id);
+				setLogger("\logs"+id+".txt",id);
 				if(id.charAt(3)=='A')
 				{
 					createAdminObject(id.substring(0, 3),ncRef);
