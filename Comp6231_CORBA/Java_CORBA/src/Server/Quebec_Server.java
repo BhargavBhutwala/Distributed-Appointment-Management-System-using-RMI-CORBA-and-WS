@@ -20,7 +20,7 @@ public class Quebec_Server
 	}
 	public void serverConnection(int port)
 	{
-		setLogger("C:\\Users\\Bhargav\\OneDrive\\Desktop\\Comp6231Assignment2\\logs\\QUE.txt","QUE");
+		setLogger("\logs\\QUE.txt","QUE");
 		logger.info("Quebec server started...");
 		DatagramSocket ds=null;
 		while (true)
