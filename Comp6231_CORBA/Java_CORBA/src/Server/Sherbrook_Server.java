@@ -20,7 +20,7 @@ public class Sherbrook_Server
 	}
 	public void serverConnection(int port)
 	{
-		setLogger("C:\\Users\\Bhargav\\OneDrive\\Desktop\\Comp6231Assignment2\\logs\\SHE.txt","SHE");
+		setLogger("\logs\\SHE.txt","SHE");
 		logger.info("Sherbrook server started...");
 		DatagramSocket ds=null;
 		while (true)
