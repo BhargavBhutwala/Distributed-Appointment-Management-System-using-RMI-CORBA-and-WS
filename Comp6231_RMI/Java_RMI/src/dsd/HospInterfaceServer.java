@@ -27,7 +27,7 @@ public class HospInterfaceServer extends UnicastRemoteObject implements HospInte
 		q_data=new Quebec_Data();
 		s_data=new Sherbrook_Data();
 		this.loc=loc;
-		setLogger("C:\\Users\\Bhargav\\OneDrive\\Desktop\\CompAssignment1\\logs"+loc+".txt",loc);
+		setLogger("\logs"+loc+".txt",loc);
 		
 		if(loc.equals("MTL"))
 		{
