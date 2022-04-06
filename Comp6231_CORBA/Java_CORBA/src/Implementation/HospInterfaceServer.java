@@ -41,7 +41,7 @@ public class HospInterfaceServer extends HospInterfacePOA
 		q_data=new Quebec_Data();
 		s_data=new Sherbrook_Data();
 		this.loc=loc;
-		setLogger("C:\\Users\\Bhargav\\OneDrive\\Desktop\\Comp6231Assignment2\\logs"+loc+".txt",loc);
+		setLogger("\logs"+loc+".txt",loc);
 		
 		if(loc.equals("MTL"))
 		{
